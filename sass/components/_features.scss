@@ -1,0 +1,33 @@
+.features__item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+
+.features__icon {
+  width: 60px;
+  height: 60px;
+}
+
+.features__subtitle {
+  color: #2196f3;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 5px;
+}
+
+.features__text {
+  color: #000000;
+
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.03em;
+}

@@ -1,0 +1,31 @@
+.answers__item {
+  margin-bottom: 25px;
+}
+
+.question {
+  color: #000000;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    content: "";
+    height: 2px;
+    max-width: 418px;
+    background-color: #2196f3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.answer {
+  color: #212121;
+
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.03em;
+}
