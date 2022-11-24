@@ -1,0 +1,37 @@
+.hero {
+  background-image: url(../images/hero.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: end;
+  min-height: 296px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 214px;
+  padding-bottom: 20px;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url(../images/hero2x.jpeg);
+    }
+  }
+}
+
+.hero__title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: 271px;
+  text-transform: uppercase;
+  margin-left: auto;
+
+  &--accent {
+    color: #188ce8;
+  }
+}
