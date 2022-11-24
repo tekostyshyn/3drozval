@@ -5,6 +5,7 @@
 .header__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 60px;
   background-color: #ffffff;
 }
@@ -28,4 +29,22 @@
 
 .icon {
   color: currentColor;
+}
+
+.icon__wheel {
+  padding-top: 4px;
+}
+
+.header__phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+  fill: #188ce8;
+  color: #212121;
 }
