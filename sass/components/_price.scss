@@ -1,0 +1,28 @@
+.price {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.price__subtitle {
+  color: #188ce8;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.price__text {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  margin-top: 7px;
+  text-transform: uppercase;
+
+  &--accent {
+    color: #188ce8;
+  }
+}

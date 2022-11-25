@@ -1,4 +1,8 @@
 .section {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 20px;
+
+  &--nopadding {
+    padding-top: 0;
+  }
 }

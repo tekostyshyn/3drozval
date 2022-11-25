@@ -1,0 +1,22 @@
+.footer {
+  height: 340px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2f303a;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  fill: #ffffff;
+  color: #ffffff;
+
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 20px;
+}
