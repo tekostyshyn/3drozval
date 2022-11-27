@@ -129,24 +129,54 @@
         <h2 class="gallery__title">Робочий процес</h2>
         <ul class="gallery">
           <li class="gallery__item">
-            <img class="gallery_photo" src="./images/gallery1.jpeg" alt="Автомобіль з датчиком" />
+            <picture>
+              <source
+                srcset="./images/gallery-2@370.jpeg 370w, ./images/gallery-2@740.jpeg 740w"
+                media="(min-width: 1200px)"
+                sizes="370px"
+              />
+              <source
+                srcset="./images/gallery-2-tab@354.jpeg 354w, ./images/gallery-2-tab@708.jpeg 708w"
+                media="(min-width: 768px)"
+                sizes="354px"
+              />
+              <source
+                srcset="./images/gallery1.jpeg 208w, ./images/gallery1@2x.jpeg 416w"
+                media="(max-width: 767px)"
+                sizes="208px"
+              />
+              <img src="./images/gallery1.jpeg" alt="Автомобіль з датчиком" />
+            </picture>
           </li>
           <li class="gallery__item">
-            <img
-              class="gallery_photo"
-              src="./images/gallery2.jpeg"
-              alt="Працівник робить геометрію"
-            />
+            <picture>
+              <source
+                srcset="./images/gallery2.jpeg 208w, ./images/gallery2@2x.jpeg 416w"
+                media="(max-width: 767px)"
+                sizes="208px"
+              />
+              <img src="./images/gallery2.jpeg" alt="Працівник робить геометрію коліс" />
+            </picture>
           </li>
           <li class="gallery__item">
-            <img
-              class="gallery_photo"
-              src="./images/gallery3.jpeg"
-              alt="Автомобіль на підйомнику"
-            />
+            <picture>
+              <source
+                srcset="./images/gallery3.jpeg 208w, ./images/gallery3@2x.jpeg 416w"
+                media="(max-width: 767px)"
+                sizes="208px"
+              />
+              <img src="./images/gallery3.jpeg" alt="Автомобіль на підйомнику" />
+            </picture>
           </li>
           <li class="gallery__item">
-            <img class="gallery_photo" src="./images/gallery4.jpeg" alt="Автомобіль з датчиком" />
+            <picture>
+              <source
+                srcset="./images/gallery4.jpeg 208w, ./images/gallery4@2x.jpeg 416w"
+                media="(max-width: 767px)"
+                sizes="208px"
+              />
+              <img src="./images/gallery4.jpeg" alt="Автомобіль з датчиком" />
+            </picture>
           </li>
         </ul>
       </div>
