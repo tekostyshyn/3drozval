@@ -1,0 +1,37 @@
+.contacts__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  fill: #fff;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.contacts__link {
+  color: #fff;
+
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
