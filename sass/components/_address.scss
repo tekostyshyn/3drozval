@@ -12,6 +12,10 @@
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+  }
 }
 
 .address__text {
@@ -22,11 +26,19 @@
   letter-spacing: 0.03em;
   margin-top: 7px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .map__box {
   height: 266px;
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+    height: 300px;
+  }
 }
 
 .map {

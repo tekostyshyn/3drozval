@@ -8,15 +8,30 @@
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 214px;
   padding-bottom: 20px;
+  padding-top: 231px;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     & {
-      background-image: url(../images/hero2x.jpeg);
+      background-image: url(../images/hero@2x.jpeg);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/hero-tab.jpeg);
+    height: 400px;
+    padding-top: 281px;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url(../images/hero-tab@2x.jpeg);
+      }
     }
   }
 }
@@ -33,5 +48,11 @@
 
   &--accent {
     color: #188ce8;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    font-size: 40px;
+    line-height: 1.2;
   }
 }

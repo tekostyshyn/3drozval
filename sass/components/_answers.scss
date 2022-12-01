@@ -20,6 +20,10 @@
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .answer {
@@ -28,4 +32,8 @@
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
