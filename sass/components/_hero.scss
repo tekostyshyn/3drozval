@@ -31,8 +31,22 @@
       (min-resolution: 2dppx) {
       & {
         background-image: url(../images/hero-tab@2x.jpeg);
+      }}}
+    ;
+
+    @media screen and (min-width: 1200px) {
+      background-image: url(../images/hero-desk.jpeg);
+      height: 600px;
+      padding-top: 421px;
+  
+      @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        & {
+          background-image: url(../images/hero-desk@2x.jpeg);
+        }
       }
-    }
   }
 }
 
@@ -54,5 +68,12 @@
     width: 300px;
     font-size: 40px;
     line-height: 1.2;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 450px;
+    font-size: 54px;
+    line-height: 1.2;
+    margin-right: 20px;
   }
 }

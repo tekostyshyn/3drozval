@@ -23,4 +23,8 @@
   letter-spacing: 0.03em;
 
   margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+  }
 }

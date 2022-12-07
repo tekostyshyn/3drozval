@@ -51,8 +51,8 @@
         <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="features">
           <li class="features__item">
-            <div class="features__icon">
-              <svg class="icon" width="60" height="60">
+            <div>
+              <svg class="icon features__icon">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
             </div>
@@ -64,8 +64,8 @@
             </div>
           </li>
           <li class="features__item">
-            <div class="features__icon">
-              <svg class="icon" width="60" height="60">
+            <div>
+              <svg class="icon features__icon">
                 <use href="./images/icons.svg#icon-computer"></use>
               </svg>
             </div>
@@ -78,8 +78,8 @@
             </div>
           </li>
           <li class="features__item">
-            <div class="features__icon">
-              <svg class="icon" width="60" height="60">
+            <div>
+              <svg class="icon features__icon">
                 <use href="./images/icons.svg#icon-car"></use>
               </svg>
             </div>
@@ -94,7 +94,7 @@
       </div>
     </section>
     <section class="section">
-      <div class="container">
+      <div class="container container__answers">
         <h2 class="visually-hidden">Відповіді на запитання про геометрію коліс</h2>
         <ul class="answers">
           <li class="answers__item">
@@ -140,68 +140,68 @@
         <h2 class="gallery__title">Робочий процес</h2>
         <ul class="gallery">
           <li class="gallery__item">
-            <picture>
+            <picture class="gallery__pic">
               <source
-                srcset="./images/gallery-2@370.jpeg 370w, ./images/gallery-2@740.jpeg 740w"
+                srcset="./images/gallery1-desk.jpeg 275w, ./images/gallery1-desk@2x.jpeg 550w"
                 media="(min-width: 1200px)"
-                sizes="370px"
+                sizes="275px"
               />
               <source
-                srcset="./images/gallery1-tab.jpeg 344w, ./images/gallery1-tab@2x.jpeg 688w"
+                srcset="./images/gallery1-tab.jpeg 354w, ./images/gallery1-tab@2x.jpeg 698w"
                 media="(min-width: 768px)"
-                sizes="344px"
+                sizes="354px"
               />
               <source
                 srcset="./images/gallery1.jpeg 208w, ./images/gallery1@2x.jpeg 416w"
                 media="(max-width: 767px)"
                 sizes="208px"
               />
-              <img src="./images/gallery1.jpeg" alt="Автомобіль з датчиком" />
+              <img class="gallery__pic" src="./images/gallery1.jpeg" alt="Автомобіль з датчиком" />
             </picture>
           </li>
           <li class="gallery__item">
             <picture>
               <source
-                srcset="./images/gallery2-tab.jpeg 344w, ./images/gallery2-tab@2x.jpeg 688w"
-                media="(min-width: 768px)"
-                sizes="344px"
+                srcset="./images/gallery2-desk.jpeg 275w, ./images/gallery2-desk@2x.jpeg 550w"
+                media="(min-width: 1200px)"
+                sizes="275px"
               />
               <source
                 srcset="./images/gallery2.jpeg 208w, ./images/gallery2@2x.jpeg 416w"
                 media="(max-width: 767px)"
                 sizes="208px"
               />
-              <img src="./images/gallery2.jpeg" alt="Працівник робить геометрію коліс" />
+              <img class="gallery__pic" src="./images/gallery2.jpeg" alt="Працівник робить геометрію коліс" />
             </picture>
           </li>
           <li class="gallery__item">
             <picture>
               <source
-                srcset="./images/gallery3-tab.jpeg 344w, ./images/gallery3-tab@2x.jpeg 688w"
-                media="(min-width: 768px)"
-                sizes="344px"
+                srcset="./images/gallery3-desk.jpeg 275w, ./images/gallery3-desk@2x.jpeg 550w"
+                media="(min-width: 1200px)"
+                sizes="275px"
               />
               <source
                 srcset="./images/gallery3.jpeg 208w, ./images/gallery3@2x.jpeg 416w"
                 media="(max-width: 767px)"
                 sizes="208px"
               />
-              <img src="./images/gallery3.jpeg" alt="Автомобіль на підйомнику" />
+              <img class="gallery__pic" src="./images/gallery3.jpeg" alt="Автомобіль на підйомнику" />
             </picture>
           </li>
           <li class="gallery__item">
             <picture>
               <source
-                srcset="./images/gallery4-tab.jpeg 344w, ./images/gallery4-tab@2x.jpeg 688w"
-                media="(min-width: 768px)"
-                sizes="344px"
+                srcset="./images/gallery4-desk.jpeg 275w, ./images/gallery4-desk@2x.jpeg 550w"
+                media="(min-width: 1200px)"
+                sizes="275px"
               />
               <source
                 srcset="./images/gallery4.jpeg 208w, ./images/gallery4@2x.jpeg 416w"
                 media="(max-width: 767px)"
                 sizes="208px"
               />
-              <img src="./images/gallery4.jpeg" alt="Автомобіль з датчиком" />
+              <img class="gallery__pic" src="./images/gallery4.jpeg" alt="Автомобіль з датчиком" />
             </picture>
           </li>
         </ul>
@@ -209,9 +209,10 @@
     </section>
     <section class="section">
       <div class="container">
+        <div class="price-address-box">
         <div class="price">
-          <div class="price__icon">
-            <svg class="icon" width="60" height="60">
+          <div>
+            <svg class="icon price__icon">
               <use href="./images/icons.svg#icon-alignment"></use>
             </svg>
           </div>
@@ -222,13 +223,9 @@
             </p>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section section--nopadding">
-      <div class="container">
         <div class="address">
-          <div class="address__icon">
-            <svg class="icon" width="60" height="60">
+          <div>
+            <svg class="icon address__icon" width="60" height="60">
               <use href="./images/icons.svg#icon-address"></use>
             </svg>
           </div>
@@ -239,6 +236,7 @@
             </address>
           </div>
         </div>
+      </div>
         <div class="map__box">
           <iframe
             class="map"

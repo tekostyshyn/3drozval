@@ -20,6 +20,10 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+  }
 }
 
 .logo__accent {
@@ -52,6 +56,10 @@
   @media screen and (min-width: 768px) {
     font-weight: 400;
   }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
 }
 
 .header__location {
@@ -72,5 +80,9 @@
 
     fill: #188ce8;
     color: #212121;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
   }
 }
